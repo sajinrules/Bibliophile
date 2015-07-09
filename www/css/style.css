@@ -1,1 +1,28 @@
 /* Empty. Add your own CSS if you like */
+/*.scroll-content{
+	background-color:rgba(20, 134, 134, 0.85);
+}*/
+
+.menu .scroll-content{
+    background-color: rgb(208, 105, 105);
+}
+
+/*.tab-header-color{
+	background-color:rgba(20, 134, 134, 0.85) !important;
+}*/
+.tabs-striped .tabs{
+	background-color:rgba(20, 134, 134, 0.85) !important;
+	color: #fff;
+}
+
+.bar-header-color{
+	background-color:#5c5757 !important;	
+}
+.tabs-top > .tabs{
+	top: 0px !important;
+}
+
+.item-complex .item-content, .item-radio .item-content{
+	background-color: rgb(208, 105, 105);
+	color: #fff;
+}

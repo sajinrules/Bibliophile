@@ -2,7 +2,22 @@
     <ion-nav-title>
 		<i class="icon ion-ios-list"> Bucketlist</i>
     </ion-nav-title>
-    <ion-content>
-		<h1>Bucketlist</h1>
+    <ion-content has-bouncing="true"  scroll="true">
+   		<form ng-submit="search()" name="saerchForm" novalidate>
+   			<div class="bar bar-header item-input-inset">
+				<label class="item-input-wrapper">
+					<i class="icon ion-ios-search placeholder-icon"></i>
+					<input type="search" name="search" ng-model="book.query" placeholder="Search">
+				</label>
+				<button class="button button-clear">Search</button>
+			</div>		
+   		</form>
+   		<div class="list">
+			<a ng-repeat="book in results" class="item item-thumbnail-left" href="#">
+				<img src="{{book.volumeInfo.imageLinks.thumbnail}}">
+				<h2>{{book.volumeInfo.title}}</h2>
+				<p>{{book.volumeInfo.authors}}</p>
+			</a>
+		</div>
     </ion-content>
 </ion-view>
