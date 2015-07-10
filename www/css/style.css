@@ -4,7 +4,7 @@
 }*/
 
 .menu .scroll-content{
-    background-color: rgb(208, 105, 105);
+    background-color: rgba(20, 134, 134, 0.85);
 }
 
 /*.tab-header-color{
@@ -23,6 +23,6 @@
 }
 
 .item-complex .item-content, .item-radio .item-content{
-	background-color: rgb(208, 105, 105);
+	background-color: rgba(20, 134, 134, 0.85);
 	color: #fff;
 }
