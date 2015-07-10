@@ -1,0 +1,325 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'cordova',
+1 verbose cli   '-',
+1 verbose cli   'g' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 warn package.json hardcover@1.0.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'cordova', null ]
+7 verbose cache add name=undefined spec="cordova" args=["cordova",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'cordova',
+8 verbose parsed url   path: 'cordova',
+8 verbose parsed url   href: 'cordova' }
+9 verbose cache add [ '-', null ]
+10 verbose cache add name=undefined spec="-" args=["-",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: '-',
+11 verbose parsed url   path: '-',
+11 verbose parsed url   href: '-' }
+12 verbose cache add [ 'g', null ]
+13 verbose cache add name=undefined spec="g" args=["g",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'g',
+14 verbose parsed url   path: 'g',
+14 verbose parsed url   href: 'g' }
+15 silly lockFile a98f2055-cordova cordova
+16 verbose lock cordova /root/.npm/a98f2055-cordova.lock
+17 silly lockFile 3bc15c8a- -
+18 verbose lock - /root/.npm/3bc15c8a-.lock
+19 silly lockFile 54fd1711-g g
+20 verbose lock g /root/.npm/54fd1711-g.lock
+21 silly lockFile a98f2055-cordova cordova
+22 silly lockFile a98f2055-cordova cordova
+23 silly lockFile 3bc15c8a- -
+24 silly lockFile 3bc15c8a- -
+25 silly lockFile 54fd1711-g g
+26 silly lockFile 54fd1711-g g
+27 verbose addNamed [ 'cordova', '' ]
+28 verbose addNamed [ null, '*' ]
+29 silly lockFile de8d9fad-cordova cordova@
+30 verbose lock cordova@ /root/.npm/de8d9fad-cordova.lock
+31 verbose addNamed [ '-', '' ]
+32 verbose addNamed [ null, '*' ]
+33 silly lockFile c75fe0d4- -@
+34 verbose lock -@ /root/.npm/c75fe0d4-.lock
+35 verbose addNamed [ 'g', '' ]
+36 verbose addNamed [ null, '*' ]
+37 silly lockFile 8b047e1f-g g@
+38 verbose lock g@ /root/.npm/8b047e1f-g.lock
+39 silly addNameRange { name: 'cordova', range: '*', hasData: false }
+40 silly addNameRange { name: '-', range: '*', hasData: false }
+41 silly addNameRange { name: 'g', range: '*', hasData: false }
+42 verbose url raw -
+43 verbose url resolving [ 'https://registry.npmjs.org/', './-' ]
+44 verbose url resolved https://registry.npmjs.org/-
+45 info trying registry request attempt 1 at 14:40:27
+46 http GET https://registry.npmjs.org/-
+47 verbose url raw g
+48 verbose url resolving [ 'https://registry.npmjs.org/', './g' ]
+49 verbose url resolved https://registry.npmjs.org/g
+50 info trying registry request attempt 1 at 14:40:27
+51 http GET https://registry.npmjs.org/g
+52 verbose url raw cordova
+53 verbose url resolving [ 'https://registry.npmjs.org/', './cordova' ]
+54 verbose url resolved https://registry.npmjs.org/cordova
+55 info trying registry request attempt 1 at 14:40:27
+56 verbose etag "AJDYVFOC9O1ZD7ZBZPYCK6HF8"
+57 http GET https://registry.npmjs.org/cordova
+58 http 304 https://registry.npmjs.org/cordova
+59 silly registry.get cb [ 304,
+59 silly registry.get   { date: 'Fri, 10 Jul 2015 09:10:08 GMT',
+59 silly registry.get     via: '1.1 varnish',
+59 silly registry.get     'cache-control': 'max-age=60',
+59 silly registry.get     etag: '"AJDYVFOC9O1ZD7ZBZPYCK6HF8"',
+59 silly registry.get     age: '32',
+59 silly registry.get     connection: 'keep-alive',
+59 silly registry.get     'x-served-by': 'cache-sin6922-SIN',
+59 silly registry.get     'x-cache': 'HIT',
+59 silly registry.get     'x-cache-hits': '1',
+59 silly registry.get     'x-timer': 'S1436519408.069456,VS0,VE1',
+59 silly registry.get     vary: 'Accept' } ]
+60 verbose etag cordova from cache
+61 silly addNameRange number 2 { name: 'cordova', range: '*', hasData: true }
+62 silly addNameRange versions [ 'cordova',
+62 silly addNameRange   [ '0.0.1',
+62 silly addNameRange     '0.0.2',
+62 silly addNameRange     '0.0.3',
+62 silly addNameRange     '0.0.4',
+62 silly addNameRange     '0.0.5',
+62 silly addNameRange     '0.0.6',
+62 silly addNameRange     '0.0.7',
+62 silly addNameRange     '0.0.8',
+62 silly addNameRange     '0.0.9',
+62 silly addNameRange     '0.1.0',
+62 silly addNameRange     '0.1.1',
+62 silly addNameRange     '0.1.2',
+62 silly addNameRange     '0.1.3',
+62 silly addNameRange     '0.1.4',
+62 silly addNameRange     '0.1.5',
+62 silly addNameRange     '0.1.6',
+62 silly addNameRange     '0.1.7',
+62 silly addNameRange     '0.1.8',
+62 silly addNameRange     '0.1.9',
+62 silly addNameRange     '0.1.10',
+62 silly addNameRange     '0.1.11',
+62 silly addNameRange     '0.1.12',
+62 silly addNameRange     '0.1.13',
+62 silly addNameRange     '0.1.14',
+62 silly addNameRange     '2.2.0',
+62 silly addNameRange     '2.3.0',
+62 silly addNameRange     '2.3.1',
+62 silly addNameRange     '2.3.2',
+62 silly addNameRange     '2.3.3',
+62 silly addNameRange     '2.3.5',
+62 silly addNameRange     '2.3.6',
+62 silly addNameRange     '2.4.0',
+62 silly addNameRange     '2.4.1',
+62 silly addNameRange     '2.4.2',
+62 silly addNameRange     '2.4.3',
+62 silly addNameRange     '2.4.4',
+62 silly addNameRange     '2.4.5',
+62 silly addNameRange     '2.4.6',
+62 silly addNameRange     '2.4.7',
+62 silly addNameRange     '2.4.8',
+62 silly addNameRange     '2.4.9',
+62 silly addNameRange     '2.4.10',
+62 silly addNameRange     '2.5.0',
+62 silly addNameRange     '2.5.2',
+62 silly addNameRange     '2.5.3',
+62 silly addNameRange     '2.5.4',
+62 silly addNameRange     '2.5.5',
+62 silly addNameRange     '2.6.0',
+62 silly addNameRange     '2.6.1',
+62 silly addNameRange     '2.6.2',
+62 silly addNameRange     '2.7.0-rc.1',
+62 silly addNameRange     '2.7.1-rc.1',
+62 silly addNameRange     '2.7.2',
+62 silly addNameRange     '2.7.3',
+62 silly addNameRange     '2.7.4',
+62 silly addNameRange     '2.8.0',
+62 silly addNameRange     '2.8.1',
+62 silly addNameRange     '2.8.2',
+62 silly addNameRange     '2.8.3',
+62 silly addNameRange     '2.8.4',
+62 silly addNameRange     '2.8.5',
+62 silly addNameRange     '2.8.6',
+62 silly addNameRange     '2.8.7',
+62 silly addNameRange     '2.8.8',
+62 silly addNameRange     '2.8.9',
+62 silly addNameRange     '2.8.10',
+62 silly addNameRange     '2.8.11',
+62 silly addNameRange     '2.8.12',
+62 silly addNameRange     '2.8.13',
+62 silly addNameRange     '2.8.14',
+62 silly addNameRange     '2.8.15',
+62 silly addNameRange     '2.8.16',
+62 silly addNameRange     '2.8.17',
+62 silly addNameRange     '2.8.18',
+62 silly addNameRange     '2.8.19',
+62 silly addNameRange     '2.8.20',
+62 silly addNameRange     '2.8.21',
+62 silly addNameRange     '2.8.22',
+62 silly addNameRange     '2.8.23',
+62 silly addNameRange     '2.8.24',
+62 silly addNameRange     '2.8.25',
+62 silly addNameRange     '2.9.0',
+62 silly addNameRange     '2.9.1',
+62 silly addNameRange     '2.9.2',
+62 silly addNameRange     '2.9.3',
+62 silly addNameRange     '2.9.4',
+62 silly addNameRange     '2.9.5',
+62 silly addNameRange     '2.9.6',
+62 silly addNameRange     '2.9.7',
+62 silly addNameRange     '3.0.0-rc1',
+62 silly addNameRange     '3.0.0-rc1-1',
+62 silly addNameRange     '3.0.0-rc1-3',
+62 silly addNameRange     '3.0.0',
+62 silly addNameRange     '3.0.1',
+62 silly addNameRange     '3.0.2',
+62 silly addNameRange     '3.0.3',
+62 silly addNameRange     '3.0.4',
+62 silly addNameRange     '3.0.5',
+62 silly addNameRange     '3.0.6',
+62 silly addNameRange     '3.0.7',
+62 silly addNameRange     '3.0.8',
+62 silly addNameRange     '3.0.9',
+62 silly addNameRange     '3.0.10',
+62 silly addNameRange     '3.1.0-0.1.0',
+62 silly addNameRange     '3.1.0-0.2.0',
+62 silly addNameRange     '3.2.0-rc.1',
+62 silly addNameRange     '3.2.0-0.1.0',
+62 silly addNameRange     '3.2.0-0.2.0',
+62 silly addNameRange     '3.2.0-0.3.0',
+62 silly addNameRange     '3.2.0-0.4.0',
+62 silly addNameRange     '3.3.0-rc.1',
+62 silly addNameRange     '3.3.0-0.1.1',
+62 silly addNameRange     '3.3.1-0.1.2',
+62 silly addNameRange     '2.9.0-rc1',
+62 silly addNameRange     '3.3.1-0.3.0',
+62 silly addNameRange     '3.3.1-0.3.1',
+62 silly addNameRange     '3.3.1-0.4.1',
+62 silly addNameRange     '3.3.1-0.4.2',
+62 silly addNameRange     '3.4.0-0.1.0',
+62 silly addNameRange     '3.4.0-0.1.1',
+62 silly addNameRange     '3.4.0-0.1.2',
+62 silly addNameRange     '3.4.0-0.1.3',
+62 silly addNameRange     '0.0.0-fake',
+62 silly addNameRange     '3.4.1-0.1.0',
+62 silly addNameRange     '3.5.0-0.2.0',
+62 silly addNameRange     '3.5.0-0.2.1',
+62 silly addNameRange     '3.5.0-0.2.2',
+62 silly addNameRange     '3.5.0-0.2.3',
+62 silly addNameRange     '3.5.0-0.2.4',
+62 silly addNameRange     '3.5.0-0.2.6',
+62 silly addNameRange     '3.5.0-0.2.7',
+62 silly addNameRange     '3.6.0-0.2.8',
+62 silly addNameRange     '3.6.0-0.2.9',
+62 silly addNameRange     '3.6.1-0.2.10',
+62 silly addNameRange     '3.6.3-0.2.11',
+62 silly addNameRange     '3.6.3-0.2.12',
+62 silly addNameRange     '3.6.3-0.2.13',
+62 silly addNameRange     '4.0.0',
+62 silly addNameRange     '4.0.1',
+62 silly addNameRange     '4.1.0',
+62 silly addNameRange     '4.1.1',
+62 silly addNameRange     '4.1.2',
+62 silly addNameRange     '4.1.3-nightly.2014.10.21',
+62 silly addNameRange     '4.2.0',
+62 silly addNameRange     '4.3.0',
+62 silly addNameRange     '5.0.0',
+62 silly addNameRange     '4.3.1',
+62 silly addNameRange     '5.1.1' ] ]
+63 verbose addNamed [ 'cordova', '5.1.1' ]
+64 verbose addNamed [ '5.1.1', '5.1.1' ]
+65 silly lockFile c5c08e8f-cordova-5-1-1 cordova@5.1.1
+66 verbose lock cordova@5.1.1 /root/.npm/c5c08e8f-cordova-5-1-1.lock
+67 http 200 https://registry.npmjs.org/g
+68 silly registry.get cb [ 200,
+68 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+68 silly registry.get     etag: '"8AYIUDSUHLGXZT7X52XKA2O0S"',
+68 silly registry.get     'content-type': 'application/json',
+68 silly registry.get     'cache-control': 'max-age=60',
+68 silly registry.get     'content-length': '6814',
+68 silly registry.get     'accept-ranges': 'bytes',
+68 silly registry.get     date: 'Fri, 10 Jul 2015 09:10:08 GMT',
+68 silly registry.get     via: '1.1 varnish',
+68 silly registry.get     age: '0',
+68 silly registry.get     connection: 'keep-alive',
+68 silly registry.get     'x-served-by': 'cache-sin6924-SIN',
+68 silly registry.get     'x-cache': 'MISS',
+68 silly registry.get     'x-cache-hits': '0',
+68 silly registry.get     'x-timer': 'S1436519408.115030,VS0,VE209',
+68 silly registry.get     vary: 'Accept' } ]
+69 http 404 https://registry.npmjs.org/-
+70 silly registry.get cb [ 404,
+70 silly registry.get   { 'content-type': 'application/json',
+70 silly registry.get     'cache-control': 'max-age=0',
+70 silly registry.get     'content-length': '57',
+70 silly registry.get     'accept-ranges': 'bytes',
+70 silly registry.get     date: 'Fri, 10 Jul 2015 09:10:08 GMT',
+70 silly registry.get     via: '1.1 varnish',
+70 silly registry.get     age: '0',
+70 silly registry.get     connection: 'keep-alive',
+70 silly registry.get     'x-served-by': 'cache-sin6927-SIN',
+70 silly registry.get     'x-cache': 'MISS',
+70 silly registry.get     'x-cache-hits': '0',
+70 silly registry.get     'x-timer': 'S1436519408.119245,VS0,VE210' } ]
+71 silly lockFile c5c08e8f-cordova-5-1-1 cordova@5.1.1
+72 silly lockFile c5c08e8f-cordova-5-1-1 cordova@5.1.1
+73 silly lockFile de8d9fad-cordova cordova@
+74 silly lockFile de8d9fad-cordova cordova@
+75 silly addNameRange number 2 { name: 'g', range: '*', hasData: true }
+76 silly addNameRange versions [ 'g',
+76 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4', '1.0.5', '2.0.0' ] ]
+77 verbose addNamed [ 'g', '2.0.0' ]
+78 verbose addNamed [ '2.0.0', '2.0.0' ]
+79 silly lockFile 228a2625-g-2-0-0 g@2.0.0
+80 verbose lock g@2.0.0 /root/.npm/228a2625-g-2-0-0.lock
+81 silly addNameRange number 2 { name: '-', range: '*', hasData: true }
+82 silly addNameRange versions [ undefined, [] ]
+83 error TypeError: Cannot read property 'latest' of undefined
+83 error     at next (/usr/share/npm/lib/cache.js:687:35)
+83 error     at /usr/share/npm/lib/cache.js:675:5
+83 error     at saved (/usr/share/npm/node_modules/npm-registry-client/lib/get.js:142:7)
+83 error     at /usr/lib/nodejs/graceful-fs/polyfills.js:133:7
+83 error     at Object.oncomplete (fs.js:107:15)
+84 error If you need help, you may report this log at:
+84 error     <http://github.com/isaacs/npm/issues>
+84 error or email it to:
+84 error     <npm-@googlegroups.com>
+85 error System Linux 3.13.0-32-generic
+86 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "cordova" "-" "g"
+87 error cwd /home/sajin/projects/biblio
+88 error node -v v0.10.25
+89 error npm -v 1.3.10
+90 error type non_object_property_load
+91 verbose exit [ 1, true ]
